@@ -66,7 +66,7 @@ python chan_analyzer.py --watchlist
 将 `chanlun-stock-analyzer.skill` 安装到 Claude Code，直接对 AI 说"分析 601689 拓普集团"即可。
 
 ### GUI 桌面应用
-已打包为 Windows EXE（约 86MB），无需安装 Python 环境，双击即可使用。获取方式见公众号「焱无忧AI手记」。
+已打包为 Windows EXE（约 86MB），无需安装 Python 环境，双击即可使用。获取方式见公众号「焱无忧的AI手作」。
 
 ## 输出内容
 
@@ -93,4 +93,4 @@ Baostock（免费、无需注册），含本地缓存兜底。
 
 不教人用 AI。造给大家看。
 
-公众号：焱无忧AI手记
+公众号：焱无忧的AI手作
