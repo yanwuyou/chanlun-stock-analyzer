@@ -1,0 +1,25 @@
+# PyInstaller 打包产物
+dist/
+build/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 本地缓存和生成文件
+cache/
+charts/
+reports/
+
+# 敏感文件（激活相关，绝不公开）
+activation.py
+keygen.py
+生成激活码.bat
+
+# 系统文件
+.DS_Store
+Thumbs.db
+*.log
+debug_err.txt
+debug_out.txt
