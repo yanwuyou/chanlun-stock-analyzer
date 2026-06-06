@@ -12,7 +12,7 @@ cache/
 charts/
 reports/*
 # 但保留示例报告
-!reports/示例报告-招金黄金.pdf
+!reports/sample-report-zhaojin-gold.pdf
 
 # 敏感文件（激活相关，绝不公开）
 activation.py
