@@ -52,6 +52,10 @@ python chan_analyzer.py --watchlist
 - K 线缠论图（含笔连线、线段、中枢区间、买卖点标记）
 - HTML 图文报告（含白话解读 + 星级评分 + 6 条件背驰检查 + 一句话总结）
 
+## 示例输出
+
+👉 [查看完整分析报告 —— 招金黄金(000506)](./reports/sample-report-zhaojin-gold.pdf)
+
 ## 数据源
 
 Baostock（免费、无需注册），含本地缓存兜底。
