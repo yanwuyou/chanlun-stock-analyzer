@@ -30,17 +30,34 @@ K线数据 → 包含关系处理 → 分型识别 → 笔的划分 → 线段�
 
 ## 使用方式
 
-### 单只股票分析
+> **三种方式，按需选择：**
+
+### 方式一：Claude Code Skill（推荐，零门槛）
+不需要懂 Python，不需要装环境。把 `chanlun-stock-analyzer.skill` 装进 Claude Code，直接说话就能用。
+
+**安装步骤：**
+1. 点击仓库里的 `chanlun-stock-analyzer.skill` 文件
+2. 点击右上角 **Download**（下载图标）
+3. 将文件放入 Claude Code 的 skills 目录
+4. 对 Claude Code 说："分析 601689 拓普集团"
+
+### 方式二：Python 源码运行
+**安装步骤：**
+1. 点击仓库右上角绿色 **Code** 按钮 → **Download ZIP**，解压
+2. 安装 Python 3.8+ 和依赖：`pip install baostock mplfinance`
+3. 在项目目录打开终端，运行下方命令
+
+**单只股票分析：**
 ```bash
 python chan_analyzer.py 601689 拓普集团
 ```
 
-### 多级别联立（30分钟+日线+周线+月线）
+**多级别联立（30分钟+日线+周线+月线）：**
 ```bash
 python chan_analyzer.py --full 601689 拓普集团
 ```
 
-### 批量扫描自选池
+**批量扫描自选池：**
 ```bash
 python chan_analyzer.py --watchlist
 ```
