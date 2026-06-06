@@ -45,8 +45,11 @@ python chan_analyzer.py --full 601689 拓普集团
 python chan_analyzer.py --watchlist
 ```
 
+### Claude Code Skill（推荐，无需编程）
+将 `chanlun-stock-analyzer.skill` 安装到 Claude Code，直接对 AI 说"分析 601689 拓普集团"即可。
+
 ### GUI 桌面应用
-双击 `《缠论》股析.exe`（已打包，约 303 MB）
+见 [Releases](https://github.com/yanwuyou/chanlun-stock-analyzer/releases) 下载 EXE 安装包。
 
 ## 输出内容
 
